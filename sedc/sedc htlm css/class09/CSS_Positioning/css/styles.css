@@ -1,0 +1,110 @@
+/* CSS positioning */
+
+/* Relative positioning */
+.relative {
+    border: 1px solid grey;
+    /* position: static; is default */
+    position: relative;
+    /* offset values */
+    top: 30px;
+    left: 150px;
+}
+
+/* Absolute positioning */
+.absolute-parent{
+    width: 1200px;
+    margin: 50px 0;
+    position: relative;
+    border: 1px solid rebeccapurple;
+
+    /* z-index: 9999; */
+}
+
+.absolute-child{
+    position: absolute;
+    bottom: 35px;
+    left: 120px;
+    background-color: yellow;
+
+    /* z-index: -10; */
+}
+
+/* Fixed positioning */
+.fixed {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: whitesmoke;
+    border: 1px solid red;
+    font-size: 33px;
+}
+
+/* Floating position */
+.float-parent {
+    width: 1000px;
+    border: 1px solid salmon;
+}
+
+.float-child{
+    width: 80px;
+    height: 80px;
+    background-color: sandybrown;
+
+    float: left;
+}
+
+/* Clearfix */
+.clear-style {
+    clear: both;
+}
+
+
+/* Layout exercise */
+#my-page {
+    width: 500px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: #e6e6e6;
+
+    border: 2px solid black;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: rgb(69, 73, 77);
+}
+
+nav {
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: rgb(69, 73, 77);
+}
+
+main {
+    height: 500px;
+    margin-bottom: 5px;
+
+    box-sizing: border-box;
+}
+
+.main-content {
+    width: 80%;
+    height: 500px;
+    margin-left: 5px;
+    background-color: rgb(69, 73, 77);
+    float: right;
+}
+
+aside {
+    width: 19%;
+    height: 500px;
+    background-color: rgb(69, 73, 77);
+    float: left;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(69, 73, 77);
+}

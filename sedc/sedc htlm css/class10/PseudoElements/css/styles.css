@@ -1,0 +1,36 @@
+/* Pseudo elements */
+
+::selection {
+    background-color: magenta;
+    color: white;
+}
+
+h3::before {
+    content: 'Web Development ';
+    background-color: yellow;
+}
+
+h3::after {
+    content: ' - We are G2 and we are awesome!!!';
+    background-color: lightsalmon;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: magenta;
+
+    position: relative;
+}
+
+.box::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: black;
+
+    position: absolute;
+    right: 0px;
+    top: -15px;
+}

@@ -1,0 +1,98 @@
+/* Transitions and Animations in CSS */
+
+/* ------------ */
+/* Transitions */
+/* ------------ */
+
+.box {
+    width: 100px;
+    height: 100px;
+
+    background-color: rgb(35,112, 15);
+    color: #FFF;
+    text-align: center;
+    line-height: 90px;
+
+    border-radius: 8px;
+
+    /* Transitions for this element */
+    /* mandatory properties */
+    transition-property: background-color, border-radius;
+    transition-duration: 3s;
+
+    /* optional properties */
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    /* transition-delay: 1s; */
+
+    /* shorthand writing */
+    /* -webkit-transition: all 2s ease-in-out 1s;
+    -moz-transition: all 2s ease-in-out 1s;
+    -ms-transition: all 2s ease-in-out 1s;
+    transition: all 2s ease-in-out 1s; */
+}
+
+.box:hover {
+    background-color: orange;
+    border-radius: 50px;
+
+    /* transform property */
+    transform: scale(1.3, 1.3);
+    transform: rotate(-180deg);
+}
+
+/* ------------ */
+/* Animations */
+/* ------------ */
+@keyframes slide {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    50% {
+        top: 250px;
+        left: 200px;
+    }
+
+    100% {
+        top: 0px;
+        left: 450px;
+    }
+}
+
+.stage {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.ball {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+
+    background-color: rebeccapurple;
+    position: absolute;
+
+    /* animation */
+    /* mandatory properties */
+    animation-name: slide;
+    animation-duration: 5s;
+
+    /* optional properties */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+
+    /* plus properties */
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+
+    /* shorthand writing */
+    animation: slide 5s cubic-bezier(0.445, 0.05, 0.55, 0.95) .5s infinite alternate forwards;
+}
+
+.stage:active .ball {
+    animation-play-state: paused;
+}

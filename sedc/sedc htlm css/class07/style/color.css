@@ -1,0 +1,49 @@
+.colorPicker{
+    color: rgb(90,245,197);
+}
+.colorPickerWithHexCodes{
+    color:#50242cef;
+}
+.colorPickerWithHSLCodes{
+    color:hsl(180deg 53% 81%);
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sansSerifStyle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fontSizeExample{
+    font-size: 1,5em;
+}
+
+.fontPercentage{
+font-size: 80%;
+}
+.fontWeightExample{
+    font-weight: normal;
+}
+.fontWithStyle{
+    font-style: oblique;
+}
+.textTransform{
+    text-transform: capitalize;
+}
+.textDecoration{
+    text-decoration-style: wavy;
+    text-decoration-line: overline;
+    text-decoration-color: brown;
+}
+.lineHeightStyle{
+    line-height: 25px;
+}
+.letterSpacing{
+    letter-spacing: 26px;
+}
+.wordSpacing{
+    word-spacing: 10px;
+}
+.textAlign{
+    text-align: right;
+}

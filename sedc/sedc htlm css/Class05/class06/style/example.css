@@ -1,0 +1,40 @@
+
+
+#exampleParagraph1{
+    color:yellow;
+}
+
+.exampleParagraph2{
+    color:blue;
+}
+
+#fontSizeForParagraph2{
+    font-size: 25px;
+}
+
+.multipleClass1{
+    color: coral;
+}
+.multipleClass2{
+    font-size: 30px;
+}
+
+p.note{
+    color:blueviolet;
+}
+
+li>a{
+    color:burlywood;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#665544;
+    padding:10px;
+}
+
+.page{
+    border:1px solid #665544;
+    background-color: crimson;
+    padding:inherit;
+}

@@ -1,0 +1,75 @@
+/* Positioning homework-1 */
+#my-page{
+    width: 500px;
+    margin:50px auto;
+    background-color:beige;
+    /* border:10px solid beige; */
+    padding: 10px;
+}
+main{
+    height: 300px;
+    box-sizing: border-box;
+}
+aside{
+    width: 90px;
+    height: 276px;
+    background-color:black;
+    float: left;
+}
+.aside-up{
+   height: 45%;
+   width: 100%;
+   border:6px solid black;
+   background-color: beige;
+   float: left;
+} 
+.aside-down{
+    height: 55%;
+    width: 100%;
+    border:6px solid black;
+    background-color: beige;
+   float: left;
+} 
+ .main-content{
+     height: 288px;
+     width: 388px;
+    background-color: rgb(255, 78, 78);
+    border:6px solid black;
+    float: right;
+
+} 
+footer{
+    height: 110px;
+    /* background-color: blue; */
+}
+.left{
+    height: 98px;
+   width: 90px;
+   border: 6px solid black;
+   background-color: skyblue;
+   float: left;
+} 
+.mid{
+    height: 98px;
+   width: 360px;
+   border: 6px solid black;
+   background-color: beige;
+   float: left;
+} 
+.right{
+    height: 86px;
+   width: 14px;
+   float: left;
+} 
+.right-up{
+    height: 50%;
+   width: 100%;
+    border:6px solid black;
+   background-color: beige;
+} 
+.right-down{
+    height: 50%;
+   width: 100%;
+    border:6px solid black;
+   background-color: yellow;
+} 

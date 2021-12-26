@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Form exercise</title>
+    </head>
+    <body>
+<form method="POST">
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username">
+    <!--Mora kaj for da e isto potpisano so id-to-->
+    <label for="passowrd">Password</label>
+    <input type="password" name="passowrd" id="passowrd">
+    <label for="comments">What did you think about thee last gig?</label>
+    <textarea id="comments" name="comments" cols="20" rows="4" placeholder="Enter your comment here">
+            </textarea>
+
+</form>
+<br>
+<form method="POST">
+    <p>Please select your favorite music genre</p>
+    <input type="radio" name="genre" value="rock" id="rock">
+    <label for="rock">Rock</label>
+    <input type="radio" name="genre" value="pop" id="pop">
+    <label for="pop">Pop</label>
+    <input type="radio" name="genre" value="jazz" id="jazz">
+    <label for="jazz">Jazz</label>
+    
+</form>
+<br>
+<form>
+    <p>Please select your favorite music service</p>
+    <input type="checkbox" name="spotify" value="spotify" id="spotify">
+    <label for="spotify">Spotify</label>
+    <input type="checkbox" name="youtube" value="youtube" id="youtube">
+    <label for="youtube">Youtube</label>
+    <input type="checkbox" name="iTunes" value="iTunes" id="iTunes">
+    <label for="iTunes">iTunes</label>
+    <br>
+    <p>What device do you use?</p>
+    <select name="devices"size="2" multiple="multiple">
+        <option value="">----</option>
+        <option value="mobile" selected>Mobile</option>
+        <option value="radio">Radio</option>
+        <option value="computer">Computer</option>
+    </select>
+    <br>
+    <label for="file">Please attach file</label>
+    <input type="file" name="file">
+
+</form>
+<br>
+<form method="POST">
+    <input type="hidden" value="value1234" name="product-code">
+    <label for="text">Username:</label>
+    <input type="text" name="text" id="text" required>
+    <input type="submit" value="Submit" >
+    <input type="reset" value="Reset">
+    <button>
+        <img src="../Class02/Class03/exercise/img/Shaqi_jrvej.jpg" width="100" >
+    </button>
+</form>
+<br>
+<form method="post">
+    <fieldset>
+        <legend>User form</legend>
+        <label for="username">Username: </label>
+        <input type="text" name="text" id="username">
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+        <label for="date">Date: </label>
+        <input type="date" name="date" id="date">
+        <input type="submit" value="Submit">
+    
+    </fieldset>
+
+</form>
+    </body>
+</html>

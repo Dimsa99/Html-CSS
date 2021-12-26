@@ -1,0 +1,39 @@
+#myPage{
+    width: 500px;
+    margin: 50px auto;
+    padding:5px;
+    background-color:white;
+    border: 2px solid black;
+}
+header{
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: rgb(207, 9, 9);
+}
+nav{
+    height: 10px;
+    margin-bottom:3px;
+    background-color: darkgrey;
+}
+main{
+    height: 500px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.mainMenu{
+width: 80%;
+    height: 500px;
+    margin-left: 3px;
+    background-color: grey;
+    float: right;
+}
+aside{
+    width: 19%;
+    height: 500px;
+    background-color: darkgreen;
+    float: left;
+}
+footer{
+    height: 100px;
+    background-color: darkkhaki;
+}

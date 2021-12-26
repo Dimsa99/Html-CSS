@@ -1,0 +1,55 @@
+/* css positioning */
+
+/* relative positioning */
+
+.relative{
+    border:1px solid grey;
+    /* position: static; ( default polozba ) */
+
+    /* offset values */
+    position: relative;
+    top: 30px;
+    left: 150px;
+
+
+}
+.absoluteParent{
+    width: 1200px;
+    margin:50px 0;
+    position:relative;
+    border:1px solid purple;
+}
+.absolute-child{
+    position:absolute;
+    bottom:15px;
+    right:20px;
+    background-color: yellow;
+}
+
+/* Fixed positioning */
+.fixed{
+    position: fixed;
+    bottom:5px;
+    right:5px;
+    background-color: greenyellow;
+    border: 1px solid red;
+    font-size: 33px;
+}
+
+/* floating position */
+.floatParent{
+    width: 1000px;
+    border: 1px solid salmon;
+}
+.floatChild{
+    width: 80x;
+    height: 80px;
+    background-color: seagreen;
+    float:left;
+
+}
+/* Clearfix */
+.clearStyle{
+    clear: both;
+}
+    

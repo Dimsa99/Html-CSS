@@ -1,0 +1,108 @@
+/* Responsive web design */
+
+h1{
+    background-color: red;
+    color: #FFF;
+}
+
+/* Mobile first approach */
+/* @media screen and (min-width:600px){
+    h1{
+        width: 400px;
+        background-color: rebeccapurple;
+        margin:0 auto;
+    }
+}
+
+@media screen and (min-width:1000px){
+    h1{
+        width: 400px;
+        background-color: green;
+        margin:0 auto;
+    }
+} */
+
+/* Desktop first */
+@media screen and(max-width:860px){
+    h1{
+        background-color: aqua;
+        color: black;
+    }
+}
+@media screen and(max-width:560px){
+    h1{
+        background-color:lightgreen;
+        color: black;
+    }
+}
+
+/* Responsive layout example */
+.layout-example{
+    background-color: gray;
+    height: 300px;
+    margin-top: 40px;
+}
+/* n-th child selector */
+.layout-example > div:nth-child(1){
+    width: 20%;
+    background-color: lime;
+    height: 100%;
+
+    float:left;
+}
+.layout-example > div:nth-child(2){
+    width: 40%;
+    background-color: orange;
+    height: 100%;
+
+    float: left;
+}
+.layout-example > div:nth-child(3){
+    width: 40%;
+    background-color: orchid;
+    height: 100%;
+
+    float: right;
+}
+@media screen and (max-width:800px){
+    .layout-example{
+        height: 600px;
+    }
+    .layout-example > div:nth-child(1){
+        width: 40%;
+        height: 50%;
+    }
+    .layout-example > div:nth-child(2){
+        width: 60%;
+        height: 50%;
+    }
+    .layout-example > div:nth-child(3){
+        width: 100%;
+        height: 50%;
+        
+
+        float: none;
+        clear: both;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .layout-example{
+        height: 900px;
+    }
+    .layout-example > div:nth-child(1){
+        width: 100%;
+        height: 20%;
+        float: none;
+    }
+    .layout-example > div:nth-child(2){
+        width: 100%;
+        height: 30%;
+        float: none;
+    }
+    .layout-example > div:nth-child(3){
+        height: 50%;
+        
+    }
+
+}

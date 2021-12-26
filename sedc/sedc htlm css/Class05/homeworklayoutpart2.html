@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lunch Menu</title>
+
+    </head>
+    <body>
+        <header>
+            <h1 id="lunchSpecial">lunch special</h1>
+            <p>Monday through Friday, 11am ~ 3 pm</p>
+            <p>$9.95 ( plus tax)</p>
+            <br>
+
+        </header>
+        <main>
+            <fieldset>
+                <legend>Order information</legend>
+                <form method="post">
+                    <label for="name">Name</label>
+                    <br>                    
+                    <input type="text" value="" name="delivery" id="name">
+                    <br>
+                    <input type="radio" value="here" name="delivery" id="here" >
+                    <label for="here">Here</label>
+                    <br>
+                    <input type="radio" value="togo" name="delivery" id="togo">
+                    <label for="togo">To go</label>
+
+                
+                            </fieldset>
+                <fieldset>
+                    <legend>Sandwiches</legend>
+                    
+                        <h2>Monday</h2>
+                        <input type="radio" name="food" id="tomato" value="tomato">
+                        <label for="tomato">Tomato Mozzarella</label>
+                        <br>
+                        <input type="radio" name="food" id="chicken" value="chicken">
+                        <label for="chicken">Chicken Salad</label>
+                        <br>
+                        <h2>Tuesday</h2>
+                        <input type="radio" name="food2" id="greek" value="greek">
+                        <label for="greek">Greek salad</label>
+                        <br>
+                        <input type="radio" name="food2" id="wrap" value="wrap">
+                        <label for="wrap">Toto Wrap</label>
+                        <br>
+                        <h2>Wednesay</h2>
+                        <input type="radio" name="food3" id="hummus" value="hummus">
+                        <label for="hummus">Red Pepper Hummus</label>
+                        <br>
+                        <input type="radio" name="food3" id="turkey" value="turkey">
+                        <label for="turkey">Roasted Turkey</label>
+                        <br>
+                        <h2>Thursday</h2>
+                        <input type="radio" name="food4" id="carrot" value="carrot">
+                        <label for="carrot">Carrot-Ginger Hummus Wrap</label>
+                        <br>
+                        <input type="radio" name="food4" id="egg" value="egg">
+                        <label for="egg">Egg Salad</label>
+                        <br>
+                        <h2>Friday</h2>
+                        <input type="radio" name="food5" id="dado" value="dado">
+                        <label for="dado">Dado Wrap</label>
+                        <br>
+                        <input type="radio" name="food5" id="tuna" value="tuna">
+                        <label for="tuna">Tuna Salad</label>
+                        <hr>
+                        <input type="checkbox" name="food6" id="extra">
+                        <label for="extra">Gluten Free Bread ( 75 cents extra )</label>
+                        
+
+
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Snack</legend>
+                    <h2>Snacks</h2>
+                    <input type="radio" name="snack" id="apple">
+                        <label for="apple">Apple</label>
+                        <br>
+                        <input type="radio" name="snack" id="banana" value="banana">
+                        <label for="tomato">Banana</label>
+                        <br>
+                        <input type="radio" name="snack" id="chips" value="chips">
+                        <label for="tomato">Potato Chips</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Regular size drink</legend>
+                    <h2>Drinks</h2>
+                    <select name="drinks" >
+                        <option value="">Please select your drink!</option>
+                        <option value="coffeeIced">Coffee or Iced Coffee</option>
+                        <option value="organicPeppermint">Organic Peppermint</option>
+                        <option value="senchaGreenTea">Hot or ICe Sencha Green tea</option>
+                        <option value="keemunBlackTea">Hot or Iced Keemun Black tea</option>
+                        <option value="">Nothing</option>
+                        <hr>
+                        <input type="checkbox" name="extraDrink" id="extraDrink">
+                        <label for="extraDrink">Large drink ( 75 cents extra )</label>
+                        <br>
+                        <p>$1.50 extra for any regular seize Bubble Tea</p>
+                    
+                    </select>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <h2>- NO SUBSTITUTIONS-</h2>
+            <br>
+            <a href="#lunchSpecial">Back to the top of the menu</a>
+
+        </footer>
+
+    </body>
+</html>

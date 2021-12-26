@@ -1,0 +1,25 @@
+.info{
+    text-decoration-color:brown;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    
+    
+   
+
+}
+.footerInfo{
+    text-decoration-color: chocolate;
+    text-decoration-style: wavy;
+    text-decoration-line: overline;
+    font-size: 20px;
+}
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+

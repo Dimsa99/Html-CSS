@@ -1,0 +1,138 @@
+body{
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.box{
+  
+  width: 80%;
+  height: 500px;
+  margin: 150px auto;
+  border: 5px solid black;
+  position: relative;
+}
+.top{
+    height: 50%;
+}
+.top-left{
+    width: 49.3%;
+    height: 100%;
+    background-color: darkred;
+    padding: 5px;
+    float: left;
+
+}
+.top-left-load{
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+    
+}
+.lines {
+    height: 10px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .lines::after {
+    content: '';
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animate_lines 6s ease-in-out infinite;
+
+}
+
+.top-left-load > :nth-child(2) {
+    height: 30px;
+    width: auto;
+    background-color: rgba(128, 128, 128, 0.385);
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4px;
+    color: white;
+}
+@keyframes animate_lines {
+    0% {
+      width: 0%;
+      opacity: 0;
+    }
+  
+    5% {
+      opacity: 0.8;
+    }
+  
+    10% {
+      opacity: 1;
+    }
+  
+    90% {
+      width: 100%;
+      opacity: 0.8;
+    }
+  
+    100% {
+      width: 100%;
+      opacity: 0;
+    }
+}
+.top-right{
+    width: 49.38%;
+    height: 100%;
+    background-color: red;
+    padding: 5px;
+    float: right;
+}
+.fully-load{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    right:0;
+}
+.fully-load-text{
+    width: 50%;
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 6px;
+
+}.load-up-right::after {
+    content: '';
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animate_line 10s ease-in-out infinite;
+}
+@keyframes animate_line {
+    0% {
+      width: 0%;
+      opacity: 0;
+    }
+  
+    5% {
+      opacity: 0.8;
+    }
+  
+    10% {
+      opacity: 1;
+    }
+  
+    90% {
+      width: 100%;
+      opacity: 0.8;
+    }
+  
+    100% {
+      width: 100%;
+      opacity: 0;
+    }
+  }

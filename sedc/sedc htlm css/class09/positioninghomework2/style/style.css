@@ -1,0 +1,80 @@
+#my-page{
+    width: 500px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+main{
+    height: 300px;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+aside{
+    height: 100%;
+    width: 100px;
+    background-color: black;
+    float: left;
+}
+.aside-up{
+    height: 100px;
+    width: 90px;
+    border-right: 10px solid black;
+    border:6px solid black;
+    background-color: beige;
+    float: left;
+}
+.aside-down{
+    height: 176px;
+    width: 90px;
+    border-right: 10px solid black;
+    border: 6px solid black;
+    background-color: beige;
+    float: left;
+}
+.main-content{
+    height: 288px;
+    width: 386px;
+    border: 6px solid black;
+    background-color: brown;
+    float: right;
+}
+footer{
+    height: 100px;
+}
+.left{
+    height: 88px;
+    width: 90px;
+    background-color: cadetblue;
+    border: 6px solid black;
+    float: left;
+
+}
+.mid{
+    height: 88px;
+    width: 360px;
+    background-color: beige;
+    border: 6px solid black;
+    float:left;
+
+}
+.right{
+    height: 88px;
+    width:14px ;
+    background-color: green;
+    border: 6px solid black;
+    float: right;
+
+}
+.right-up{
+    width: 100%;
+    height: 36px;
+    background-color: beige;
+    border-bottom: 8px solid black;
+}
+.right-down{
+    width: 100%;
+    height: 36px;
+    background-color: yellow;
+    border-top: 8px solid black;
+}
